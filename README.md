@@ -110,6 +110,13 @@ Carolyn J. Lawrence-Dill<sup>1,2,6</sup>
 <img src="https://github.com/CFYanarella/Speech-Based_Phenotyping_Methods_for_Field_Studies/blob/53164f275efae134ef35aa32bbd7c56b005ef5d4/P3_logo.png" width=20% height=20%><img src="https://github.com/CFYanarella/Speech-Based_Phenotyping_Methods_for_Field_Studies/blob/53164f275efae134ef35aa32bbd7c56b005ef5d4/AIIRA_logo.png" width=5% height=5%>
 
 
+## Full poster
+
+<p align="center">
+<img src="https://github.com/CFYanarella/Speech-Based_Phenotyping_Methods_for_Field_Studies/blob/04717782af54697804e888bd7389d27037f9bf8d/CFY_2022_poster_v1.png" width=100% height=100%>
+</p>
+
+
 ## Citations
 
 [1] C. N. Hansey, J. M. Johnson, R. S. Sekhon, S. M. Kaeppler, and N. de Leon, “Genetic Diversity of a Maize Association Population with Restricted Phenology,” Crop Science, vol. 51, no. 2, pp. 704–715, Mar. 2011.
