@@ -14,21 +14,21 @@ Field-based phenotyping of maize is time-consuming, cumbersome, and generally re
 
 ## Background
 
-* Association panels, such as the Wisconsin Diversity panel, contain diverse genotypes that enable examining genetic marker associations with traits of agronomic interest [1,2,3].
-* Genetic markers datasets for association studies, including Single Nucleotide Polymorphism (SNP) datasets, are available for the Wisconsin Diversity panel [1,2,3].
+* Association panels, such as the Wisconsin Diversity panel, contain diverse genotypes that enable the examination of genetic marker associations with traits of agronomic interest [1,2,3].
+* Genetic marker datasets for association studies, including Single Nucleotide Polymorphism (SNP) datasets, are available for the Wisconsin Diversity panel [1,2,3].
 * Researchers can measure and score agronomic traits manually or through automated platforms that employ sensors [4,5,6,7,8].
 * New field-based phenotyping methods are being developed to make observing plant phenotypes faster and less labor-intensive [7,8].
 * Through computational methods, descriptions of plants are used to generate biologically meaningful connections between plant phenotypes and genes [9,10,11].
-* Free-form speech descriptions of plants are useful for generating networks of semantic similarity or similarity of word meaning [11].
+* Free-form speech descriptions of plants are useful for generating networks of semantic similarity or similarity of word meaning [11]. 
 
 
 ## Methods
 
 * In July of 2021, nine student workers recorded speech descriptions of accessions from the Wisconsin Diversity panel (Image 1).
 * Speech-to-text tools, for example, Amazon Web Services (AWS) Transcribe [12], automate the transcription process to transform the raw speech data into computable text data (Figure 1: Audio Processing Component). 
-* Semantic similarity, or word meaning similarity, we can generate networks through Natural Language Processing (NLP) techniques from the text descriptions [9,10,11] (Figure 1: Association Study Component). 
+* Using semantic similarity, or word meaning similarity, we can generate networks through Natural Language Processing (NLP) techniques from the text descriptions [9,10,11] (Figure 1: Association Study Component). 
 * We hypothesize that thresholding methods will result in clusters of descriptions with high semantic similarity, which we call synthetic phenotypes [10] (Figure 1: Association Study Component; Figure 2). 
-* A set of ~20 million SNPs were derived from whole genome resequencing and imputation and are stored as files compatible with association study tools bigsnpr [13], GAPIT [14], and FarmCPU [15].
+* A set of ~20 million SNPs were derived from whole genome resequencing and imputation and are stored as files compatible with association study tools bigsnpr [13,14], GAPIT [15], and FarmCPU [16].
 
 
 ## Significance
@@ -41,7 +41,8 @@ Field-based phenotyping of maize is time-consuming, cumbersome, and generally re
 ## Next Steps
 
 * Recreate previous association studies completed using the Wisconsin Diversity panel [2].
-* Perform Association Study Component (Figure 1: Association Study Component; Figure 2) using tools described in [13, 14, 15].
+* Perform Association Study Component (Figure 1: Association Study Component; Figure 2) using tools described in [13, 14, 15,16].
+
 
 ## Authors
 Colleen F. Yanarella<sup>1</sup>, 
@@ -113,7 +114,7 @@ Carolyn J. Lawrence-Dill<sup>1,2,6</sup>
 ## Full poster
 
 <p align="center">
-<img src="https://github.com/CFYanarella/Speech-Based_Phenotyping_Methods_for_Field_Studies/blob/04717782af54697804e888bd7389d27037f9bf8d/CFY_2022_poster_v1.png" width=100% height=100%>
+<img src="https://github.com/CFYanarella/Speech-Based_Phenotyping_Methods_for_Field_Studies/blob/04717782af54697804e888bd7389d27037f9bf8d/CFY_2022_poster_v1_1.png" width=100% height=100%>
 </p>
 
 
@@ -145,6 +146,8 @@ Carolyn J. Lawrence-Dill<sup>1,2,6</sup>
 
 [13] F. Privé, H. Aschard, A. Ziyatdinov, and M. G. B. Blum, “Efficient analysis of large-scale genome-wide data with two R packages: bigstatsr and bigsnpr,” Bioinformatics, vol. 34, no. 16, pp. 2781–2787, Aug. 2018.
 
-[14] J. Wang and Z. Zhang, “GAPIT Version 3: Boosting Power and Accuracy for Genomic Association and Prediction,” Genomics, Proteomics & Bioinformatics, Sep. 2021.
+[14] J. T. Lovell et al., “Genomic mechanisms of climate adaptation in polyploid bioenergy switchgrass,” Nature, vol. 590, no. 7846, pp. 438–444, Feb. 2021.
 
-[15] X. Liu, M. Huang, B. Fan, E. S. Buckler, and Z. Zhang, “Iterative Usage of Fixed and Random Effect Models for Powerful and Efficient Genome-Wide Association Studies,” PLOS Genetics, vol. 12, no. 2, p. e1005767, Feb. 2016.
+[15] J. Wang and Z. Zhang, “GAPIT Version 3: Boosting Power and Accuracy for Genomic Association and Prediction,” Genomics, Proteomics & Bioinformatics, Sep. 2021.
+
+[16] X. Liu, M. Huang, B. Fan, E. S. Buckler, and Z. Zhang, “Iterative Usage of Fixed and Random Effect Models for Powerful and Efficient Genome-Wide Association Studies,” PLOS Genetics, vol. 12, no. 2, p. e1005767, Feb. 2016.
