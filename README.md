@@ -114,7 +114,7 @@ Carolyn J. Lawrence-Dill<sup>1,2,6</sup>
 ## Full poster
 
 <p align="center">
-<img src="https://github.com/CFYanarella/Speech-Based_Phenotyping_Methods_for_Field_Studies/blob/04717782af54697804e888bd7389d27037f9bf8d/CFY_2022_poster_v1_1.png" width=100% height=100%>
+<img src="https://github.com/CFYanarella/Speech-Based_Phenotyping_Methods_for_Field_Studies/blob/5443a1b3992e6fd6972e8b0d47e15f5dfe825454/CFY_2022_poster_v1.png" width=100% height=100%>
 </p>
 
 
